@@ -1,5 +1,15 @@
 # Take help from this site while setting up the cronjob : https://crontab.guru/
 
+# Walk-through
+
+crontab -l : will list the existing cron jobs
+
+crontab -e : will let you edit/add the cron jobs
+
 Sample :
 
 5 4 * * * /path/to/script.shs
+
+crontab -l
+
+* * * * * root /Users/d0t077o/Desktop/VS-Code/personal/cron-delete-script/crontab.sh
