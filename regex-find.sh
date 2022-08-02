@@ -1,0 +1,1 @@
+find . -type f -mtime +30 | grep -iE '(.*(\_(\d){4}\_(\d){2}\_(\d){2}\_).*(sas7bdat|log))' | xargs -I {} rm -rf {}
